@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(31, 4, 61); 
+    text-align: center;
+}  
+
+.title { 
+    font-family: 'Calligraffitti', cursive;
+    color: white;
+    display: inline;
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+    }
+    
+    img {
+    width: 250px;
+    }
+
+    p{
+        margin : 50px;
+        text-align: center;
+        display: inline;
+        color: white;
+    }
