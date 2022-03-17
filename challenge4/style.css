@@ -1,15 +1,35 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(40, 12, 66);
+color: white;
 }
 .container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+margin-top: 15%;
 }
 .movie-card {
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  position: relative;
+  width: 15%;
+  border-radius: 7px;
 }
 .movie-image {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
 }
+
 .movie-details-container {
 }
 .descriptions {
+  text-align: center;
+  padding: 2px 16px;
+  position: absolute;
 }
 
 /*A gift from us!*/
@@ -28,4 +48,8 @@ body {
   );
 }
 .movie-title {
+  margin-top: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
 }
